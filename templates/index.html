@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Let's Play</h1>
+
+    <div class="dice">
+      <img class="img2" src="" id="third">
+    </div>
+
+    <div class="dice">
+        <p id="computer">Computer</p>
+        <img class="img4" src="" id="fourth">
+    </div>
+
+    <div class="dice">
+        <p id="user">Player</p>
+        <img class="img1" src="{{url_for('static', filename='images/dice1.png')}}" id="first">
+      </div>
+      <div class="dice">
+          <img class="img3" src="{{url_for('static', filename='images/dice1.png')}}" id="second">
+      </div>
+  
+
+    <div class="game-buttons">
+        <button class="btn" id="stopButton">Stop</button>
+        <button class="btn" id="startButton">Start</button>
+    </div>
+</div>
+
+{% endblock %}

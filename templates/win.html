@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>YAY!! You Won</h1>
+    <img src="{{url_for('static', filename='images/yugo1.png')}}" alt="win pic" class="win-lose-img">
+    <div>
+        <a href="{{url_for('home')}}" class="btn">Play again</a>
+    </div>
+    
+</div>
+{% endblock %}

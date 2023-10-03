@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Oh! It's a tie</h1>
+    <img src="{{url_for('static', filename='images/yuna.jpg')}}" alt="tie pic" class="win-lose-img"><br>
+    <a href="{{url_for('home')}}" class="btn">Play again</a>
+</div>
+{% endblock %}

@@ -1,0 +1,68 @@
+body {
+    background-color: #393E46;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  h1 {
+    margin: 15px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+
+  a {
+    margin-top: 15px;
+    text-decoration: none;
+    
+  }
+
+  .game-buttons {
+    margin-top: 15px;
+  }
+ 
+  .btn {
+    border-radius: 10%;
+    padding: 10px 30px;
+    background-color: #4ECCA3 ;
+    color: #232931;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.3rem;
+    box-shadow: 5px 0 #232931;
+   
+  }
+
+  .btn:not(:last-child) {
+        margin-right: 30px;
+  }
+
+  .win-lose-img {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+  }
+ #stopButton , #startButton {
+    display: none;
+ }
